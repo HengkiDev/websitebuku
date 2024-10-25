@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5dade2;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    background-color: #2874a6;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.book {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #2e86c1;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #85c1e9;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#fiksi h2 , #nonfiksi h2 , #pendidikan h2 { 
+    text-align: center;
+}
+
+#fiksi img , #nonfiksi img , #pendidikan img { 
+    width: 150px;
+    height: 150px;
+}
+
+#fiksi button { 
+   border-radius: 20px;
+}
+
+#nonfiksi button { 
+    border-radius: 20px;
+}
+
+#pendidikan button { 
+    border-radius: 20px;
+}
+
+#contact h2 { 
+    text-align: center;
+}
